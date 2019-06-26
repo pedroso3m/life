@@ -1,0 +1,13 @@
+@{
+    ViewBag.Title = "Campanha dia dos Pais";
+    Layout = "~/Views/Shared/Base/_Layout.cshtml";
+}
+
+<div class="featuredProducts">
+    <!-- ~/Views/Shared/Blocks/Product/_FeaturedProducts.cshtml -->
+    @Html.Action("FeaturedProducts", "Product")
+</div>
+
+
+<!-- ~/Views/Shared/Blocks/Banner/_FullBanner.cshtml -->
+@Html.Action("FullBanner", "Banner")
